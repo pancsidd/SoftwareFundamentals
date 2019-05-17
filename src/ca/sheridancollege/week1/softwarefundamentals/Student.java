@@ -13,26 +13,6 @@ public class Student {
     // comment
     private int id;
     private String name;
-    private String email;
-
-    /**
-     * Get the value of email
-     *
-     * @return the value of email
-     */
-    public String getEmail() {
-        return email;
-    }
-
-    /**
-     * Set the value of email
-     *
-     * @param email new value of email
-     */
-    public void setEmail(String email) {
-        this.email = email;
-    }
-
 
     /**
      * Get the value of name
@@ -50,20 +30,6 @@ public class Student {
      */
     public void setName(String name) {
         this.name = name;
-    }
-
-    /**
-     * @return the id
-     */
-    public int getId() {
-        return id;
-    }
-
-    /**
-     * @param id the id to set
-     */
-    public void setId(int id) {
-        this.id = id;
     }
 
 }
